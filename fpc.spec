@@ -52,7 +52,7 @@ Source11:	https://sourceforge.net/projects/freepascal/files/Linux/3.0.4/fpc-3.0.
 Source100:	%{name}.rpmlintrc
 Patch1:		fpc-use_bfd_linker.patch
 Patch2:		ld-linux-arm.patch
-ExclusiveArch:	%{ix86} x86_64 %{arm}
+ExclusiveArch:	%{ix86} x86_64
 Requires:	gcc
 Requires:	fpc-base == %{version}
 Requires:	fpc-units == %{version}
