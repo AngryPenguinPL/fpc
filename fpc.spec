@@ -106,7 +106,7 @@ This package consists units not include in fpc-base packets. Use it if you
 need all units instead RTL and X11,NCurses and ZLib only.
 
 %prep
-%setup -q -a 10 -a 11 -a 12
+%setup -q -a 10 -a 11
 %apply_patches
 TOP="`pwd`"
 cd fpc-%{version}.%{fpc_target}-%{_os}
