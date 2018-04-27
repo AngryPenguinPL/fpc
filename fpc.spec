@@ -39,15 +39,15 @@
 
 Summary: 	Free Pascal Compiler
 Name: 		fpc
-Version: 	2.6.4
-Release: 	3
+Version: 	3.0.4
+Release: 	1
 License: 	GPLv2+ and LGPLv2+ with exceptions
 Group: 		Development/Other
 Url: 		http://www.freepascal.org/
-Source0:	http://surfnet.dl.sourceforge.net/sourceforge/freepascal/%{name}-%{version}.source.tar.gz
+Source0:	https://sourceforge.net/projects/freepascal/files/Source/%{version}/%{name}-%{version}.source.tar.gz/
 # Bootstrap compilers
-Source10:	http://downloads.sourceforge.net/project/freepascal/Linux/%{version}/fpc-%{version}.x86_64-linux.tar
-Source11:	http://downloads.sourceforge.net/project/freepascal/Linux/%{version}/fpc-%{version}.i386-linux.tar
+Source10:	https://sourceforge.net/projects/freepascal/files/Linux/3.0.4/fpc-3.0.4.x86_64-linux.tar
+Source11:	https://sourceforge.net/projects/freepascal/files/Linux/3.0.4/fpc-3.0.4.i386-linux.tar
 Source12:	http://downloads.sourceforge.net/project/freepascal/Linux/%{version}/fpc-%{version}.arm-linux.tar
 Source100:	%{name}.rpmlintrc
 Patch1:		fpc-use_bfd_linker.patch
