@@ -48,7 +48,7 @@ Source0:	https://sourceforge.net/projects/freepascal/files/Source/%{version}/%{n
 # Bootstrap compilers
 Source10:	https://sourceforge.net/projects/freepascal/files/Linux/3.0.4/fpc-3.0.4.x86_64-linux.tar
 Source11:	https://sourceforge.net/projects/freepascal/files/Linux/3.0.4/fpc-3.0.4.i386-linux.tar
-Source12:	http://downloads.sourceforge.net/project/freepascal/Linux/%{version}/fpc-%{version}.arm-linux.tar
+#Source12:	http://downloads.sourceforge.net/project/freepascal/Linux/%{version}/fpc-%{version}.arm-linux.tar
 Source100:	%{name}.rpmlintrc
 Patch1:		fpc-use_bfd_linker.patch
 Patch2:		ld-linux-arm.patch
