@@ -1,5 +1,5 @@
 sources:
-  fpc-2.6.4.arm-linux.tar: 8cd23dac18c58a18c6e67f93dbaa0677862bf028
+  fpc-3.0.4.arm-linux-eabihf-raspberry.tar: 8957131182c6d3bb5952ce0a33edd158d5b834b2
   fpc-3.0.4.i386-linux.tar: 0a51364bd1a37f1e776df5357ab5bfca8cc7ddeb
   fpc-3.0.4.source.tar.gz: 7b4d214f2de56e5a60cca6b6ab8f192e786894b4
   fpc-3.0.4.x86_64-linux.tar: 0720e428eaea423423e1b76a7267d6749c3399f4
