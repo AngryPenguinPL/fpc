@@ -48,11 +48,11 @@ Source0:	https://sourceforge.net/projects/freepascal/files/Source/%{version}/%{n
 # Bootstrap compilers
 Source10:	https://sourceforge.net/projects/freepascal/files/Linux/3.0.4/fpc-3.0.4.x86_64-linux.tar
 Source11:	https://sourceforge.net/projects/freepascal/files/Linux/3.0.4/fpc-3.0.4.i386-linux.tar
-#Source12:	http://downloads.sourceforge.net/project/freepascal/Linux/%{version}/fpc-%{version}.arm-linux.tar
+Source12:	ftp://freepascal.stack.nl/pub/mirrors/fpc/dist/%{version}/arm-linux/%{name}-%{version}.arm-linux-eabihf-raspberry.tar
 Source100:	%{name}.rpmlintrc
 Patch1:		fpc-use_bfd_linker.patch
 Patch2:		ld-linux-arm.patch
-ExclusiveArch:	%{ix86} x86_64
+ExclusiveArch:	%{ix86} x86_64 %{arm}
 Requires:	gcc
 Requires:	fpc-base == %{version}
 Requires:	fpc-units == %{version}
@@ -106,7 +106,7 @@ This package consists units not include in fpc-base packets. Use it if you
 need all units instead RTL and X11,NCurses and ZLib only.
 
 %prep
-%setup -q -a 10 -a 11
+%setup -q -a 10 -a 11 -a 12
 %apply_patches
 TOP="`pwd`"
 cd fpc-%{version}.%{fpc_target}-%{_os}
